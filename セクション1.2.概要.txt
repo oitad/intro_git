@@ -1,0 +1,46 @@
+・個人開発の流れ
+個人でファイルを編集
+↓
+個人リポジトリに保存（コミット）
+    リポジトリ：変更履歴を記録する場所
+↓
+共有リポジトリに保存（プッシュ）
+
+・複数人開発の流れ
+共有リポジトリのファイルを個人リポジトリに取得する（プル）
+↓
+個人でファイルを編集
+↓
+個人リポジトリに保存（コミット）
+    リポジトリ：変更履歴を記録する場所
+↓
+共有リポジトリに保存（プッシュ）
+
+・Gitのインストール
+git for windowsで検索
+
+gitファイルができるので、
+そのなかのgit bashを開く
+
+git操作にはGUIとCUIがある。
+
+terminalでgit versionでgitがインストールされているか確認
+
+・GitHubの登録
+
+・Gitの初期設定
+GitHubのユーザーをGitに登録
+git config --global user.name "github oitad"
+メールアドレスを登録
+git config --global user.email mutuparma@gmail.com
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,48 @@
+・新規プロジェクトから始めよう
+ローカルリポジトリの新規作成
+git init 
+.gitディレクトリが作成される。
+
+バージョン管理したいディレクトリに移動する。
+cd ~/Desktop/プログラム系/udemy/はじめてのGitとGitHub
+
+ディレクトリ内に移動し、git initを実行。
+.gitディレクトリのなかにgitリポジトリが生成される。
+
+・既存プロジェクトから始めよう
+既存プロジェクトを途中からGitで管理する方法
+バージョン管理したいディレクトリに移動し、git initを実行。
+
+・基本的なワークフロー
+1. ファイルの変更をステージングエリアへ追加（git add）
+2. ローカルレポジトリにコミット（git commit）
+3. リモートリポジトリにプッシュ（git push）
+
+1. git add first.txt
+2. git commit
+vimが開かれるのでコメントを入力する。
+iで入力。Esc→:wqで保存して終了。
+
+GitHubにレポジトリを作成。
+ブラウザでGitHubを開き、+ボタン new repository
+
+create repositoryボタンを押すと、
+コマンドが表示される画面が出るので、
+すでに作成されているレポジトリに対してGitHubを
+紐づけるので、
+…or push an existing repository from the command line
+1. gitにGitHubを登録する
+git remote add origin https://github.com/oitad/intro_git.git
+2. GitHubにpush
+git push -u origin master
+このコマンドを実行する。
+
+これでGitHubに登録される！
+できてる！！
+
+
+
+
+
+
+
