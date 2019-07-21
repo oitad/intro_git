@@ -8,7 +8,7 @@
 いろいろな作業をしたときに、コミットするファイルを選ぶためにある。
 
 ステージング
-すべての変更ファイル：git add.
+すべての変更ファイル：git add .
 特定のファイル：git add ファイル名
 
 原則は、一作業一コミット！！
@@ -18,12 +18,24 @@
 二行目：空行
 三行目：変更した理由
 
+ステージングエリア内の変更点を確認
+git commit -v
 
+変更ログを確認
+git log
 
+・いろいろな変更をコミット
+新規ファイルの追加
+git add second.txt
+git commit -v
 
+ファイルの削除
+rm second.txt
+git rm second.txt
+git commit -v
 
-
-
+複数ファイルの変更
+git add .
 
 
 
