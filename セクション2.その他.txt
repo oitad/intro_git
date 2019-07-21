@@ -36,13 +36,51 @@ git commit -v
 
 複数ファイルの変更
 git add .
+git commit -v
 
+・現在の状況を確認
+Gitコミットした状態からの変更の差分
+git status
 
+Your branch is ahead of 'origin/master' by 3 commits.
+origin/master（GitHub）より３つ多くコミットしている
 
+nothing to commit, working tree clean
+最新のコミットからなにも変更されていない
 
+Changes not staged for commit:
+modified: first.txt
+ステージに上げられていないコミットがある
 
+Changes to be committed:
+コミットすべき変更がある
 
+・変更履歴を確認する
+git log
+git log中の移動
+k 上移動
+j 下移動
+q 終了
 
+git log --oneline
+コミットメッセージを一行で表示
+
+git log -n 3
+表示するログ数を指定
+
+git log --oneline -n 3
+
+git log -p
+git log -p fileName
+ファイルの変更内容（コード）を見ることができる
+
+・ファイルの変更差分を確認
+git diff
+git add,commitする前にどんな変更をしたのか確認するために使う
+ローカルの状態とステージング領域との差分を表示する。
+
+ステージングとコミットの差分
+git diff HEAD
 
 
 
