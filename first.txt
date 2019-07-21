@@ -6,3 +6,5 @@ aaa
 変更点
 
 git rm
+
+git status 
